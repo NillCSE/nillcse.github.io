@@ -4,79 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-</head>
-<body align="center">
-    <h1>My Portfolio</h1>
-    <hr>
-    <img src="https://eresult.ru.ac.bd:9603/api/public/sya/file/view/image/2411176144.jpg" alt="Ridwan Mahfuz Nill" width="150" height="180" loading="Loading">
-    <p><strong><i>Hello!! I am</i> Ridwan Mahfuz Nill</strong><br>
-    Student of Computer Science and Engineering at <a href="https://www.ru.ac.bd/" target="_blank"> University of Rajshahi. </a> </p>
-    <h3 align="left"><u>Educational Qualifications :</u></h3>
-    
-    <table border = "1" cellspacing="0">
-        <caption><b>Education Details</b></caption>
-        <tr>
-            <th > Examination&nbsp&nbsp&nbsp</th>
-            <th> Year &nbsp&nbsp&nbsp </th>
-            <th> Status&nbsp&nbsp&nbsp&nbsp </th>
-            <th> Result&nbsp&nbsp&nbsp&nbsp </th>
-            <th> Institution&nbsp&nbsp&nbsp </th>
-        </tr>
-        <tr>
-            <td>SSC</td>
-            <td>2021</td>
-            <td>Passed</td>
-            <td>4.68</td>
-            <td>&nbsp&nbsp<a href="https://www.bheramarahs.edu.bd/" target="_blank">Bheramara Government Pilot Model High School</a>&nbsp&nbsp</td>
-        </tr>
-        <tr>
-            <td>HSC</td>
-            <td>2023</td>
-            <td>Passed</td>
-            <td>5.00</td>
-            <td>&nbsp&nbsp<a href="https://bheramara.college.gov.bd/" target="_blank">Bheramara Government College</a>&nbsp&nbsp</td>
-        </tr>
-         <tr>
-            <td>BSc in CSE</td>
-            <td>2024-2028</td>
-            <td>Ongoing</td>
-            <td>3.55 (Current)</td>
-            <td>&nbsp&nbsp<a href="https://www.ru.ac.bd/" target="_blank">University of Rajshahi</a>&nbsp&nbsp</td>
-        </tr>
-    </table>
-    <br>
-    <h3 align="left"><u>Skills :</u></h3>
-    <ul align="left" type ="square">
-        <li> Html </li>
-        <li>C</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>Verilog</li>
-    </ul>
+    <style>
 
-    <h3 align="left"><u>Hobbies :</u></h3>
-    <ul align="left" type ="square">
-        <li>Watching Movies</li>
-        <li>Spending time with friends and family</li>
-        <li>Travelling</li>
-    </ul>
-    <h3 align="left"><u>Accounts :</u></h3>
-    <ul align="left" type ="square">
-        <li><a href="https://codeforces.com/profile/ridwan__mahfuz" target="_blank">Codeforces</a></li>
-        <li><a href="https://github.com/NillCSE" target="_blank">GitHub</a></li>
-    </ul>
-    <h3 align="left"><u>Contact :</u></h3>
-    <ul align="left" type ="square">
-        <li>Email: <a href="mailto:ridwanmahfuz2004@gmail.com">ridwanmahfuz2004@gmail.com</a></li>
-        <li>Phone: <a href="tel:+8801887818787">+8801887818787</a></li>
-        <li>WhatsApp: <a href="https://wa.me/8801887818787" target="_blank">+8801887818787</a></li>
-    </ul>
-    <h3 align="left"><u>Social Media :</u></h3>
-    <ul align="left" type ="square">    
-        <li><a href="https://www.facebook.com/ridwan.mahfuz.nill" target="_blank">Facebook</a></li>
-        <li><a href="https://www.instagram.com/ridwanmahfuz2004/" target="_blank">Instagram</a></li>
-        <li><a href="https://www.linkedin.com/in/nill-nill-bb9711366/" target="_blank">LinkedIn</a></li>
-    </ul>
+        *
+        {
+           margin:10px; 
+           padding:0px;
+           box-sizing:border-box;
+        }
+        html,body
+        {
+            height:100%;
+            font-family:Arial,sans-serif;
+        }
+        nav a
+        {
+            text-decoration:none;
+            margin: 15px;        
+        }
+        .hero
+        {
+            text-align : center;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            padding: 50px 20px;
+            margin: 20px 0 ;
+            border-radius: 10px;
+            
+        }
+        .hero img
+        {
+            border-radius: 10%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#accounts">Accounts</a>
+            <a href="#contact">Contact</a>
+            <a href="#socialmedia">Social Media </a>
+        </nav>
+    </header>
+
+    <hr>
+    <div class="hero">
+        <div id="home" >
+            <h2>Welcome to My Portfolio</h2>
+        </div>
+
+        <div id="about">
+        <img src="https://eresult.ru.ac.bd:9603/api/public/sya/file/view/image/2411176144.jpg" alt="Ridwan Mahfuz Nill" width="150" height="180" loading="lazy">
+        <p><strong><i>Hello!! I am</i> Ridwan Mahfuz Nill</strong><br>
+        Student of Computer Science and Engineering at <a href="https://www.ru.ac.bd/" target="_blank"> University of Rajshahi. </a> </p>
+        </div>
+    </div>
+    <div id="education">
+        <h3><u>Educational Qualifications :</u></h3>
+        <table border = "1" cellspacing="0">
+            <caption><b>Education Details</b></caption>
+            <tr>
+                <th > Examination&nbsp&nbsp&nbsp</th>
+                <th> Year &nbsp&nbsp&nbsp </th>
+                <th> Status&nbsp&nbsp&nbsp&nbsp </th>
+                <th> Result&nbsp&nbsp&nbsp&nbsp </th>
+                <th> Institution&nbsp&nbsp&nbsp </th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>2021</td>
+                <td>Passed</td>
+                <td>4.68</td>
+                <td>&nbsp&nbsp<a href="https://www.bheramarahs.edu.bd/" target="_blank">Bheramara Government Pilot Model High School</a>&nbsp&nbsp</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>2023</td>
+                <td>Passed</td>
+                <td>5.00</td>
+                <td>&nbsp&nbsp<a href="https://bheramara.college.gov.bd/" target="_blank">Bheramara Government College</a>&nbsp&nbsp</td>
+            </tr>
+            <tr>
+                <td>BSc in CSE</td>
+                <td>2024-2028</td>
+                <td>Ongoing</td>
+                <td>3.55 (Current)</td>
+                <td>&nbsp&nbsp<a href="https://www.ru.ac.bd/" target="_blank">University of Rajshahi</a>&nbsp&nbsp</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <div id="skills">
+        <h3><u>Skills :</u></h3>
+        <ul align="left" type ="square">
+            <li> Html </li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Verilog</li>
+        </ul>
+    </div>
+
+    <br>
+    <div id="hobbies">
+        <h3><u>Hobbies :</u></h3>
+        <ul align="left" type ="square">
+            <li>Watching Movies</li>
+            <li>Spending time with friends and family</li>
+            <li>Travelling</li>
+        </ul>
+    </div>
+
+    <div id="accounts">
+
+        <h3 ><u>Accounts :</u></h3>
+        <ul align="left" type ="square">
+            <li><a href="https://codeforces.com/profile/ridwan__mahfuz" target="_blank">Codeforces</a></li>
+            <li><a href="https://github.com/NillCSE" target="_blank">GitHub</a></li>
+        </ul>
+
+    </div>
+
+    <div id="contact">
+        
+        <h3><u>Contact :</u></h3>
+        <ul align="left" type ="square">
+            <li>Email: <a href="mailto:ridwa455k">rid5152222</a></li>
+            <li>Phone: <a href="tel:+8566">1232</a></li>
+            <li>WhatsApp: <a href="https://wa.me/5563222.." target="_blank">+.....421</a></li>
+        </ul>
+    </div>
+
+    <div id="socialmedia">
+
+        <h3 ><u>Social Media :</u></h3>
+        <ul align="left" type ="square">    
+            <li><a href="https://...." target="_blank">Facebook</a></li>
+            <li><a href="https://www....." target="_blank">Instagram</a></li>
+            <li><a href="https://www......" target="_blank">LinkedIn</a></li>
+        </ul>
+    </div>
 
     <footer>
         <hr>
