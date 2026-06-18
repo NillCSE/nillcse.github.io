@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow p-3">
+    <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Nill</a>
+        
+        <button
+          class="navbar-toggler border-2 border-light"
+          type="button"
+
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+        <div class="navbar-nav ms-auto">
+            
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="education.html">Education</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            
+        </div>
+    </div>
     </nav>
 
-    <header>
+    <header class="text-center my-5 p-5 bg-dark text-white rounded">
         <h1>Ridwan Mahfuz Nill</h1>
         <p>CSE Student | Competitive Programmer</p>
     </header>
-    <hr>
     <main>
-        <div>
+        <div class="container">
 
-            <img src="WhatsApp Image 2025-03-18 at 23.24.47_bcadda42.jpg" alt="Ridwan Mahfuz Nill" width="150" height="180" loading="Loading">
-            <section>
+            <img src="WhatsApp Image 2025-03-18 at 23.24.47_bcadda42.jpg" alt="Ridwan Mahfuz Nill" width="150" height="180" loading="Loading"
+            " class="rounded img-fluid mb-4 mx-auto  d-block shadow" width="350">
+            <section class="border rounded p-4 shadow my-5">
                 <h2>About Me:</h2>
                 <p><strong><i>Hello!! I am</i> Ridwan Mahfuz Nill</strong><br>
                 Student of Computer Science and Engineering at <a href="https://www.ru.ac.bd/" target="_blank"> University of Rajshahi. </a> </p>
             </section>
-            <br>
-            <section>
+            <section class="border rounded p-4 shadow my-5">
                 <h2>My Skills:</h2>
                 <ul>
                     <li>HTML</li>
@@ -42,8 +58,7 @@
                     <li>Verilog</li>
                 </ul>
             </section>
-            <br>
-            <section>
+            <section class="border rounded p-4 shadow my-5">
                 <h2>My Interests:</h2>
                 <ul>
                     <li>Competitive Programming</li>
@@ -52,8 +67,7 @@
                     <li>Embedded Systems</li>
                 </ul>
             </section>
-            <br>
-            <section>
+            <section class="border rounded p-4 shadow my-5">
                 <h2>Hobbies :</h2>
                 <ul>
                     <li>Watching Movies</li>
@@ -61,8 +75,7 @@
                     <li>Travelling</li>
                 </ul>
             </section>
-            <br>
-            <section>
+            <section class="border rounded p-4 shadow my-5">
                 <h2>Accounts :</h2>
                 <ul>
                     <li><a href="https://codeforces.com/profile/ridwan__mahfuz" target="_blank">Codeforces</a></li>
