@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow p-3">
     <div class="container">
@@ -32,62 +34,292 @@
     </div>
     </nav>
 
-    <header class="text-center my-5 p-5 bg-dark text-white rounded">
-        <h1>Ridwan Mahfuz Nill</h1>
-        <p>CSE Student | Competitive Programmer</p>
+    <header class="text-center my-5 shadow p-4 bg-light rounded">
+        <img 
+        src="WhatsApp Image 2025-03-18 at 23.24.47_bcadda42.jpg" 
+        alt="Ridwan Mahfuz Nill" 
+        width="250" loading="lazy"
+        class="rounded img-fluid mb-4 mx-auto  d-block shadow">
+        <h1 class="mt-4">Ridwan Mahfuz Nill</h1>
+        <p class="lead text-secondary">
+            <i class="bi bi-mortarboard-fill"></i>
+            CSE Student
+            |
+            <i class="bi bi-code-slash"></i>
+            Competitive Programmer
+        </p>
     </header>
-    <main>
+    <main class="flex-grow-1">
         <div class="container">
 
-            <img src="WhatsApp Image 2025-03-18 at 23.24.47_bcadda42.jpg" alt="Ridwan Mahfuz Nill" width="150" height="180" loading="Loading"
-            " class="rounded img-fluid mb-4 mx-auto  d-block shadow" width="350">
-            <section class="border rounded p-4 shadow my-5">
-                <h2>About Me:</h2>
-                <p><strong><i>Hello!! I am</i> Ridwan Mahfuz Nill</strong><br>
-                Student of Computer Science and Engineering at <a href="https://www.ru.ac.bd/" target="_blank"> University of Rajshahi. </a> </p>
+            <section class="rounded p-4 shadow my-5 text-center">
+                <h2>
+                    <i class="bi bi-person-fill"></i>
+                         About Me :
+                </h2>
+                <p><strong><b>Hello!!</b> I am Ridwan Mahfuz Nill</strong><br>
+                Student of Computer Science and Engineering at <a href="https://www.ru.ac.bd/" target="_blank" class="text-decoration-none "> University of Rajshahi. </a> </p>
             </section>
-            <section class="border rounded p-4 shadow my-5">
-                <h2>My Skills:</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Verilog</li>
-                </ul>
+
+            <section class="my-5">
+
+                <h2 class="mb-4">
+                    Skills
+                </h2>
+
+                <div class="row g-3">
+
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0"> HTML </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0 ">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0"> CSS </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                                alt="Bootstrap"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0">Bootstrap</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0"> JavaScript </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0">C / C++</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0"> Java </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card shadow border-0">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img
+                                src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+                                alt="Verilog"
+                                width="50"
+                                class="img-fluid mb-2">
+                                <h6 class="mb-0"> Verilog </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
-            <section class="border rounded p-4 shadow my-5">
-                <h2>My Interests:</h2>
-                <ul>
-                    <li>Competitive Programming</li>
-                    <li>Web Development</li>
-                    <li>Software Development</li>
-                    <li>Embedded Systems</li>
-                </ul>
-            </section>
-            <section class="border rounded p-4 shadow my-5">
-                <h2>Hobbies :</h2>
-                <ul>
-                    <li>Watching Movies</li>
-                    <li>Spending time with friends and family</li>
-                    <li>Travelling</li>
-                </ul>
-            </section>
-            <section class="border rounded p-4 shadow my-5">
-                <h2>Accounts :</h2>
-                <ul>
-                    <li><a href="https://codeforces.com/profile/ridwan__mahfuz" target="_blank">Codeforces</a></li>
-                    <li><a href="https://github.com/NillCSE" target="_blank">GitHub</a></li>
-                </ul>
+            <div class="row ">
+                <div class="col-lg-6 d-flex">
+
+                    <section class="border rounded p-4 w-100 shadow my-5">
+                        <h2 class="mb-3"><i class="bi bi-lightbulb-fill"></i> My Interests:</h2>
+                        <div class="row g-3">
+        
+                            <div class="col-12 col-sm-6 ">
+                                <div class="card border-warning shadow  ">
+                                    <div class="card-body text-center">
+                                        <img
+                                        src="https://cdn-icons-png.flaticon.com/512/2583/2583344.png"
+                                        width="50"
+                                        class="mb-2 img-fluid">
+                                        <h5>Competitive Programming</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 ">
+                                <div class="card border-primary shadow ">
+                                    <div class="card-body text-center">
+                                        <img
+                                        src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png"
+                                        width="50"
+                                        class="mb-2 img-fluid">
+                                        <h5>Web Development</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="card border-success  shadow ">
+                                    <div class="card-body text-center">
+                                        <img
+                                        src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png"
+                                        width="50"
+                                        class="mb-2 img-fluid">
+        
+                                        <h5>Software Development</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="card border-danger shadow ">
+                                    <div class="card-body text-center">
+                                        <img
+                                        src="https://cdn-icons-png.flaticon.com/512/4616/4616734.png"
+                                        width="50"
+                                        class="mb-2 img fluid">
+        
+                                        <h5>Embedded Systems</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-lg-6 d-flex">
+                    
+                    <section class="border rounded p-4 w-100 shadow my-5">
+                        <h2 class="mb-3"><i class="bi bi-controller mb-4"></i>  Hobbies :</h2>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="card shadow mb-3">
+                                <div class="card-body d-flex align-items-center">
+                                    <img
+                                    src="https://cdn-icons-png.flaticon.com/512/4221/4221484.png"
+                                    width="60" class="img-fluid">
+        
+                                    <h5 class="ms-3 mb-0">
+                                        Watching Movies
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="card shadow ">
+                                <div class="card-body d-flex align-items-center">
+                                    <img
+                                    src="https://cdn-icons-png.flaticon.com/512/201/201623.png"
+                                    width="60" class="img-fluid">
+                                    
+                                    <h5 class="ms-3 mb-0">
+                                        Travelling
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column gap-3">
+                                <div class="card shadow">
+                                    <div class="card-body d-flex align-items-center">
+                                        <img
+                                        src="https://cdn-icons-png.flaticon.com/128/12355/12355128.png"
+                                        width="60" class="img-fluid">
+            
+                                        <h5 class="ms-3 mb-0">
+                                            Spending Time With Friends & Family
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <section class="border rounded p-2 shadow my-5">
+                <h2 class="mb-4"> Accounts :</h2>
+                <div class="row justify-content-center g-3">
+
+                    <div class="col-md-6">
+                        <div class="card shadow h-100 text-center">
+                            <div class="card-body">
+                                <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" 
+                                alt="GitHub" 
+                                class="img-fluid mb-2" width="60">
+                                <h5>
+                                GitHub
+                                </h5>
+                                <p class="text-muted">
+                                    Explore my repositories and projects.
+                                </p>
+
+                                <a href="https://github.com/NillCSE"
+                                target="_blank"
+                                class="btn btn-dark btn-sm">
+                                    Visit Profile
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow h-100 text-center">
+                            <div class="card-body">
+                                <img src="//codeforces.com/codeforces.org/s/46105/images/codeforces-sponsored-by-ton.png" 
+                                alt="Codeforces" 
+                                class="mb-2" width="200">
+                                <p class="text-muted">
+                                    Follow my competitive programming journey.
+                                </p>
+
+                                <a href="https://codeforces.com/profile/ridwan__mahfuz"
+                                target="_blank"
+                                class="btn btn-primary btn-sm">
+                                    Visit Profile
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </section>
         </div>
     </main>
 
-    <footer>
-        <hr>
-        <p>&copy; 2026 Ridwan Mahfuz Nill. All rights reserved.</p>
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        
+        <p class="mb-0">&copy; 2026 Ridwan Mahfuz Nill. All rights reserved.</p>
     </footer>
 </body>
 </html>
